@@ -1,0 +1,3 @@
+/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles/vtsh.dir
+/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles/edit_cache.dir
+/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles/rebuild_cache.dir
