@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/viktoriasimdakina/Downloads/vtsh_arch 4"
+CMAKE_SOURCE_DIR = /Users/viktoriasimdakina/os/vtsh_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build"
+CMAKE_BINARY_DIR = /Users/viktoriasimdakina/os/vtsh_lab/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vtsh.dir/depend.make
@@ -73,80 +73,95 @@ CMakeFiles/vtsh.dir/codegen:
 .PHONY : CMakeFiles/vtsh.dir/codegen
 
 CMakeFiles/vtsh.dir/src/main.c.o: CMakeFiles/vtsh.dir/flags.make
-CMakeFiles/vtsh.dir/src/main.c.o: /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/main.c
+CMakeFiles/vtsh.dir/src/main.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/main.c
 CMakeFiles/vtsh.dir/src/main.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vtsh.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/main.c.o -MF CMakeFiles/vtsh.dir/src/main.c.o.d -o CMakeFiles/vtsh.dir/src/main.c.o -c "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vtsh.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/main.c.o -MF CMakeFiles/vtsh.dir/src/main.c.o.d -o CMakeFiles/vtsh.dir/src/main.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/main.c
 
 CMakeFiles/vtsh.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/main.c" > CMakeFiles/vtsh.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/main.c > CMakeFiles/vtsh.dir/src/main.c.i
 
 CMakeFiles/vtsh.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/main.c" -o CMakeFiles/vtsh.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/main.c -o CMakeFiles/vtsh.dir/src/main.c.s
 
 CMakeFiles/vtsh.dir/src/repl.c.o: CMakeFiles/vtsh.dir/flags.make
-CMakeFiles/vtsh.dir/src/repl.c.o: /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/repl.c
+CMakeFiles/vtsh.dir/src/repl.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/repl.c
 CMakeFiles/vtsh.dir/src/repl.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vtsh.dir/src/repl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/repl.c.o -MF CMakeFiles/vtsh.dir/src/repl.c.o.d -o CMakeFiles/vtsh.dir/src/repl.c.o -c "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/repl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vtsh.dir/src/repl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/repl.c.o -MF CMakeFiles/vtsh.dir/src/repl.c.o.d -o CMakeFiles/vtsh.dir/src/repl.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/repl.c
 
 CMakeFiles/vtsh.dir/src/repl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/repl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/repl.c" > CMakeFiles/vtsh.dir/src/repl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/repl.c > CMakeFiles/vtsh.dir/src/repl.c.i
 
 CMakeFiles/vtsh.dir/src/repl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/repl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/repl.c" -o CMakeFiles/vtsh.dir/src/repl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/repl.c -o CMakeFiles/vtsh.dir/src/repl.c.s
 
 CMakeFiles/vtsh.dir/src/parser.c.o: CMakeFiles/vtsh.dir/flags.make
-CMakeFiles/vtsh.dir/src/parser.c.o: /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/parser.c
+CMakeFiles/vtsh.dir/src/parser.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/parser.c
 CMakeFiles/vtsh.dir/src/parser.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vtsh.dir/src/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/parser.c.o -MF CMakeFiles/vtsh.dir/src/parser.c.o.d -o CMakeFiles/vtsh.dir/src/parser.c.o -c "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/parser.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vtsh.dir/src/parser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/parser.c.o -MF CMakeFiles/vtsh.dir/src/parser.c.o.d -o CMakeFiles/vtsh.dir/src/parser.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/parser.c
 
 CMakeFiles/vtsh.dir/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/parser.c" > CMakeFiles/vtsh.dir/src/parser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/parser.c > CMakeFiles/vtsh.dir/src/parser.c.i
 
 CMakeFiles/vtsh.dir/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/parser.c" -o CMakeFiles/vtsh.dir/src/parser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/parser.c -o CMakeFiles/vtsh.dir/src/parser.c.s
+
+CMakeFiles/vtsh.dir/src/combinators.c.o: CMakeFiles/vtsh.dir/flags.make
+CMakeFiles/vtsh.dir/src/combinators.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/combinators.c
+CMakeFiles/vtsh.dir/src/combinators.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vtsh.dir/src/combinators.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/combinators.c.o -MF CMakeFiles/vtsh.dir/src/combinators.c.o.d -o CMakeFiles/vtsh.dir/src/combinators.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/combinators.c
+
+CMakeFiles/vtsh.dir/src/combinators.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/combinators.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/combinators.c > CMakeFiles/vtsh.dir/src/combinators.c.i
+
+CMakeFiles/vtsh.dir/src/combinators.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/combinators.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/combinators.c -o CMakeFiles/vtsh.dir/src/combinators.c.s
 
 CMakeFiles/vtsh.dir/src/executor.c.o: CMakeFiles/vtsh.dir/flags.make
-CMakeFiles/vtsh.dir/src/executor.c.o: /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/executor.c
+CMakeFiles/vtsh.dir/src/executor.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/executor.c
 CMakeFiles/vtsh.dir/src/executor.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vtsh.dir/src/executor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/executor.c.o -MF CMakeFiles/vtsh.dir/src/executor.c.o.d -o CMakeFiles/vtsh.dir/src/executor.c.o -c "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/executor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/vtsh.dir/src/executor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/executor.c.o -MF CMakeFiles/vtsh.dir/src/executor.c.o.d -o CMakeFiles/vtsh.dir/src/executor.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/executor.c
 
 CMakeFiles/vtsh.dir/src/executor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/executor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/executor.c" > CMakeFiles/vtsh.dir/src/executor.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/executor.c > CMakeFiles/vtsh.dir/src/executor.c.i
 
 CMakeFiles/vtsh.dir/src/executor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/executor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/executor.c" -o CMakeFiles/vtsh.dir/src/executor.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/executor.c -o CMakeFiles/vtsh.dir/src/executor.c.s
 
 CMakeFiles/vtsh.dir/src/process_manager.c.o: CMakeFiles/vtsh.dir/flags.make
-CMakeFiles/vtsh.dir/src/process_manager.c.o: /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/process_manager.c
+CMakeFiles/vtsh.dir/src/process_manager.c.o: /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c
 CMakeFiles/vtsh.dir/src/process_manager.c.o: CMakeFiles/vtsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/vtsh.dir/src/process_manager.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/process_manager.c.o -MF CMakeFiles/vtsh.dir/src/process_manager.c.o.d -o CMakeFiles/vtsh.dir/src/process_manager.c.o -c "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/process_manager.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/vtsh.dir/src/process_manager.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vtsh.dir/src/process_manager.c.o -MF CMakeFiles/vtsh.dir/src/process_manager.c.o.d -o CMakeFiles/vtsh.dir/src/process_manager.c.o -c /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c
 
 CMakeFiles/vtsh.dir/src/process_manager.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vtsh.dir/src/process_manager.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/process_manager.c" > CMakeFiles/vtsh.dir/src/process_manager.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c > CMakeFiles/vtsh.dir/src/process_manager.c.i
 
 CMakeFiles/vtsh.dir/src/process_manager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vtsh.dir/src/process_manager.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/process_manager.c" -o CMakeFiles/vtsh.dir/src/process_manager.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c -o CMakeFiles/vtsh.dir/src/process_manager.c.s
 
 # Object files for target vtsh
 vtsh_OBJECTS = \
 "CMakeFiles/vtsh.dir/src/main.c.o" \
 "CMakeFiles/vtsh.dir/src/repl.c.o" \
 "CMakeFiles/vtsh.dir/src/parser.c.o" \
+"CMakeFiles/vtsh.dir/src/combinators.c.o" \
 "CMakeFiles/vtsh.dir/src/executor.c.o" \
 "CMakeFiles/vtsh.dir/src/process_manager.c.o"
 
@@ -156,11 +171,12 @@ vtsh_EXTERNAL_OBJECTS =
 bin/vtsh: CMakeFiles/vtsh.dir/src/main.c.o
 bin/vtsh: CMakeFiles/vtsh.dir/src/repl.c.o
 bin/vtsh: CMakeFiles/vtsh.dir/src/parser.c.o
+bin/vtsh: CMakeFiles/vtsh.dir/src/combinators.c.o
 bin/vtsh: CMakeFiles/vtsh.dir/src/executor.c.o
 bin/vtsh: CMakeFiles/vtsh.dir/src/process_manager.c.o
 bin/vtsh: CMakeFiles/vtsh.dir/build.make
 bin/vtsh: CMakeFiles/vtsh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable bin/vtsh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable bin/vtsh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vtsh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +188,6 @@ CMakeFiles/vtsh.dir/clean:
 .PHONY : CMakeFiles/vtsh.dir/clean
 
 CMakeFiles/vtsh.dir/depend:
-	cd "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/viktoriasimdakina/Downloads/vtsh_arch 4" "/Users/viktoriasimdakina/Downloads/vtsh_arch 4" "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build" "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build" "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles/vtsh.dir/DependInfo.cmake" "--color=$(COLOR)" vtsh
+	cd /Users/viktoriasimdakina/os/vtsh_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/viktoriasimdakina/os/vtsh_lab /Users/viktoriasimdakina/os/vtsh_lab /Users/viktoriasimdakina/os/vtsh_lab/build /Users/viktoriasimdakina/os/vtsh_lab/build /Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles/vtsh.dir/DependInfo.cmake "--color=$(COLOR)" vtsh
 .PHONY : CMakeFiles/vtsh.dir/depend
 

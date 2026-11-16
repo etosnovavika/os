@@ -35,7 +35,7 @@ static int apply_redirections(const Command *cmd) {
     return 0;
 }
 
-// Запускает внешнюю команду через fork() и execvp().
+// Запускает одиночную команду через fork() и execvp().
 static int run_external(const Command *cmd) {
     pid_t pid = fork();
 
@@ -109,7 +109,7 @@ static int execute_command(const Command *cmd, int last_status, bool *should_exi
         return 0;
     }
 
-    // Если команда не встроенная, запускаем отдельный процесс.
+    // Если команда не отдельная cd и exit, запускаем отдельный процесс
     return run_external(cmd);
 }
 
@@ -176,6 +176,7 @@ static int run_pipeline(const Pipeline *pipeline) {
             }
 
             // Заменяем дочерний процесс внешней программой.
+            //команда внутри конвейера, напрвление stdin stdout в pipe
             execvp(cmd->argv[0], cmd->argv);
 
             int err = errno;

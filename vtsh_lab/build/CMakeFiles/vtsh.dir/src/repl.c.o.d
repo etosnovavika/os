@@ -1,11 +1,11 @@
 CMakeFiles/vtsh.dir/src/repl.c.o: \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/repl.c \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/repl.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/parser.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/command.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/repl.c \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/repl.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/parser.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/command.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/executor.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/executor.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \

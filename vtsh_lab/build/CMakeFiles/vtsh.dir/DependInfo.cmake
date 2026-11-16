@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/executor.c" "CMakeFiles/vtsh.dir/src/executor.c.o" "gcc" "CMakeFiles/vtsh.dir/src/executor.c.o.d"
-  "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/main.c" "CMakeFiles/vtsh.dir/src/main.c.o" "gcc" "CMakeFiles/vtsh.dir/src/main.c.o.d"
-  "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/parser.c" "CMakeFiles/vtsh.dir/src/parser.c.o" "gcc" "CMakeFiles/vtsh.dir/src/parser.c.o.d"
-  "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/process_manager.c" "CMakeFiles/vtsh.dir/src/process_manager.c.o" "gcc" "CMakeFiles/vtsh.dir/src/process_manager.c.o.d"
-  "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/src/repl.c" "CMakeFiles/vtsh.dir/src/repl.c.o" "gcc" "CMakeFiles/vtsh.dir/src/repl.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/combinators.c" "CMakeFiles/vtsh.dir/src/combinators.c.o" "gcc" "CMakeFiles/vtsh.dir/src/combinators.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/executor.c" "CMakeFiles/vtsh.dir/src/executor.c.o" "gcc" "CMakeFiles/vtsh.dir/src/executor.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/main.c" "CMakeFiles/vtsh.dir/src/main.c.o" "gcc" "CMakeFiles/vtsh.dir/src/main.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/parser.c" "CMakeFiles/vtsh.dir/src/parser.c.o" "gcc" "CMakeFiles/vtsh.dir/src/parser.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c" "CMakeFiles/vtsh.dir/src/process_manager.c.o" "gcc" "CMakeFiles/vtsh.dir/src/process_manager.c.o.d"
+  "/Users/viktoriasimdakina/os/vtsh_lab/src/repl.c" "CMakeFiles/vtsh.dir/src/repl.c.o" "gcc" "CMakeFiles/vtsh.dir/src/repl.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

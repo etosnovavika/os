@@ -1,6 +1,6 @@
 CMakeFiles/vtsh.dir/src/process_manager.c.o: \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/process_manager.c \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/process_manager.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.c \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \

@@ -1,9 +1,10 @@
 CMakeFiles/vtsh.dir/src/parser.c.o: \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/parser.c \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/parser.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/command.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/parser.c \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/parser.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/command.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/combinators.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \

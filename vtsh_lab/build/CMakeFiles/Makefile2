@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/viktoriasimdakina/Downloads/vtsh_arch 4"
+CMAKE_SOURCE_DIR = /Users/viktoriasimdakina/os/vtsh_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build"
+CMAKE_BINARY_DIR = /Users/viktoriasimdakina/os/vtsh_lab/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/vtsh.dir/clean
 CMakeFiles/vtsh.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vtsh.dir/build.make CMakeFiles/vtsh.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vtsh.dir/build.make CMakeFiles/vtsh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target vtsh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target vtsh"
 .PHONY : CMakeFiles/vtsh.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vtsh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vtsh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles 0
 .PHONY : CMakeFiles/vtsh.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ vtsh: CMakeFiles/vtsh.dir/rule
 # codegen rule for target.
 CMakeFiles/vtsh.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vtsh.dir/build.make CMakeFiles/vtsh.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/viktoriasimdakina/Downloads/vtsh_arch 4/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target vtsh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/viktoriasimdakina/os/vtsh_lab/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target vtsh"
 .PHONY : CMakeFiles/vtsh.dir/codegen
 
 # clean rule for target.

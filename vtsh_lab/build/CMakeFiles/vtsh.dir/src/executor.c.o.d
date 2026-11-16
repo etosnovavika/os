@@ -1,11 +1,11 @@
 CMakeFiles/vtsh.dir/src/executor.c.o: \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/executor.c \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/executor.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/command.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/executor.c \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/executor.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/command.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdbool.h \
-  /Users/viktoriasimdakina/Downloads/vtsh_arch\ 4/src/process_manager.h \
+  /Users/viktoriasimdakina/os/vtsh_lab/src/process_manager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
